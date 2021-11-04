@@ -4,7 +4,7 @@ Segundo Proyecto de la materia de 'Proyecto integrador de tecnologías emergente
 
 Equipo #3
 
-María Fernanda Mendoza A01745728
+María Fernanda Mendoza A01745728 <br />
 Carolina Obregon A01251983
 Isabel Navarro A00823132
 Jaime Montemayor A01176573
