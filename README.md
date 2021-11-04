@@ -41,6 +41,8 @@ Al realizar el clone al repositorio se obtienen todos los archivos, en caso de n
 git clone https://github.com/carooobregon/proyecto-investigacion2.git
 ```
 ## Base de datos
+El conjunto de datos utilizado es de ‘Face Mask Dataset (YOLO Format)’ de [Kaggle](https://www.kaggle.com/aditya276/face-mask-dataset-yolo-format). Contiene imágenes de las cuales están clasificadas en ‘no_mask’ y ‘mask’ y está dividido en 3 conjuntos para mayor comodidad. Las imágenes ya están anotadas en formato yolo lo cual implica que ya no se tiene que hacer una modificación al etiquetado. Este conjunto es una recopilación de imágenes de Google, Bing y otros conjuntos de datos de Kaggle. Tiene un total de 1400 imágenes para train, 240  para test y 200 para validation.
+
 
 ## Descripción y entrenamiento de los modelos
 
