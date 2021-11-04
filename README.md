@@ -49,3 +49,7 @@ El conjunto de datos utilizado es de ‘Face Mask Dataset (YOLO Format)’ de [K
 ## Resultados
 
 ## Páginas consultadas
+Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788)
+
+https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
+
