@@ -54,6 +54,25 @@ Se utiliza un conjunto de datos llamado COCO que consta de 80 etiquetas, que inc
 
 ## Descripción y entrenamiento de los modelos
 ### Detección de distancia
+Ya que se detectaron las personas:
+1. Se crea un blob a partir del frame.
+2. Se crean  listas que contendrán los cuadros delimitadores, centroides de objetos y confidencias de detección de objetos.
+3. Se procesan los resultados.
+4. En social_distance_detector.py se utiliza la distancia ecludiana para calcular distancia entre centroides.
+5. Se pasan argumentos a través de la línea de terminal:
+  - input
+  - output
+  - display
+6. Se cargan las etiquetas de COCO y se establece el camino YOLO.
+7. Procesamiento de frames y determinar si las personas mantienen una distancia social segura:
+  - Iteración de frames.
+  - detect_people
+8. Suponiendo que se hayan detectado al menos dos personas en el cuadro:
+  - Calcule la distancia euclidiana entre todos los pares de centroides.
+  - Iterar sobre la matriz de distancia triangular.
+  - Verificar si la distancia viola la distancia social mínima y se agrega  al conjunto de violate.
+
+
 ### Detección de cubrebocas
 1. Construir Darknet: clonando darknet del repositorio de AlexeyAB’s, permitir OPENCV y GPU para el makefile, y proceder a construir el Darknet.
 2. Descargar los pesos pre entrenados de YOLOv4: YOLOv4 ha sido entrenado con el dataset de coco el cual tiene 80 clases.
