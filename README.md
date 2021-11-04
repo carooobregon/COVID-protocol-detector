@@ -26,13 +26,13 @@ sistema:
   
 ## Requerimientos
 **Se debe de ejectuar el código en Google Colab para asegurar su funcionamiento adecuado.**
-
+  
 
 
 
 
 ## Uso del código
-El archivo final del modelo: **nose_como_se_llama**.ipynb
+El archivo final del modelo: DeteccionDeMascaras.ipynb
 
 Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
 
@@ -43,8 +43,18 @@ git clone https://github.com/carooobregon/proyecto-investigacion2.git
 ## Base de datos
 El conjunto de datos utilizado es de ‘Face Mask Dataset (YOLO Format)’ de [Kaggle](https://www.kaggle.com/aditya276/face-mask-dataset-yolo-format). Contiene imágenes de las cuales están clasificadas en ‘no_mask’ y ‘mask’ y está dividido en 3 conjuntos para mayor comodidad. Las imágenes ya están anotadas en formato yolo lo cual implica que ya no se tiene que hacer una modificación al etiquetado. Este conjunto es una recopilación de imágenes de Google, Bing y otros conjuntos de datos de Kaggle. Tiene un total de 1400 imágenes para train, 240  para test y 200 para validation.
 
+Se utiliza un conjunto de datos llamado COCO que consta de 80 etiquetas, que incluyen, entre otras:
+- Personas
+- Bicicletas
+- Autos y camionetas
+- Aviones
+- Señales de stop y bocas de incendio
+- Animales como perros, gatos pájaros, etc.
+- Objetos de cocina y comedor, como copas de vino, tazas tenedores, cuchillos, etc.
 
 ## Descripción y entrenamiento de los modelos
+### Detección de cubrebocas
+
 
 ## Resultados
 
