@@ -88,11 +88,10 @@ Ya que se detectaron las personas:
 12. Correr el detector de objetos en una imagen o video.
 
 
-
-## Resultados
-
 ## Páginas consultadas
 Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788)
 
 https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/
+
+https://machinelearningknowledge.ai/yolov4-object-detection-tutorial-with-image-and-video/
 
