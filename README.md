@@ -60,17 +60,17 @@ Ya que se detectaron las personas:
 3. Se procesan los resultados.
 4. En social_distance_detector.py se utiliza la distancia ecludiana para calcular distancia entre centroides.
 5. Se pasan argumentos a través de la línea de terminal:
-  - input
-  - output
-  - display
+    - input
+    - output
+    - display
 6. Se cargan las etiquetas de COCO y se establece el camino YOLO.
 7. Procesamiento de frames y determinar si las personas mantienen una distancia social segura:
-  - Iteración de frames.
-  - detect_people
+    - Iteración de frames.
+    - detect_people
 8. Suponiendo que se hayan detectado al menos dos personas en el cuadro:
-  - Calcule la distancia euclidiana entre todos los pares de centroides.
-  - Iterar sobre la matriz de distancia triangular.
-  - Verificar si la distancia viola la distancia social mínima y se agrega  al conjunto de violate.
+    - Calcule la distancia euclidiana entre todos los pares de centroides.
+    - Iterar sobre la matriz de distancia triangular.
+    - Verificar si la distancia viola la distancia social mínima y se agrega  al conjunto de violate.
 
 
 ### Detección de cubrebocas
