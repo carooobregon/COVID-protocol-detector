@@ -1,4 +1,4 @@
-## Clasificador para datos tabulares de Alzheimer
+## Proyecto de visión computacional: Detección de cubrebocas y de sana distancia
 
 Segundo Proyecto de la materia de 'Proyecto integrador de tecnologías emergentes' impartida por el profesor Daniel Cabrera
 
