@@ -1,0 +1,62 @@
+
+  <!DOCTYPE html>
+  <html>
+	<head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	  <title>--- TODO ---</title>
+  
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+  
+	</head>
+	<style>
+		.content {
+		  max-width: 500px;
+		  margin: auto;
+		  padding: 20px;
+		}
+		.gradient-custom {
+		/* fallback for old browsers */
+		background: #1b1c1f;
+
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: -webkit-linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5));
+
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: linear-gradient(to right, rgba(193, 223, 196, 0.5), rgba(222, 236, 221, 0.5))
+		}
+		
+		h1{
+			font-display: center;
+			font-weight:700;
+		}
+		h2{
+			font-size: 25px;
+			font-weight: 500;
+		}
+		.download{
+			font-weight: 700;
+			color: darkolivegreen
+		}
+	</style>
+		
+	<body>
+	<div class="content gradient-custom ">
+		<h1>Distance detector using YOLO</h1>
+
+		<h2>Upload a video</h2>
+		<form method="POST" action="" enctype="multipart/form-data">
+			<p><input type="file" class="form-control-file form-control-md" name="file"></p>
+			<p><input type="submit" class="btn btn-secondary btn-sm" value="Submit"></p>
+		</form>
+		<a class="download" href="/descarga">Download output video!</a>
+	</div>
+	  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+	  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</body>
+  </html>
+  
