@@ -23,10 +23,6 @@ Se tiene que ejecutar con **python main.py** en la terminal.
 ## Requerimientos
 **Se debe de ejectuar el código en Google Colab para asegurar su funcionamiento adecuado.**
   
-
-
-
-
 ## Uso del código
 El archivo final del modelo: DeteccionDeMascaras.ipynb
 
