@@ -67,10 +67,10 @@ Ya que se detectaron las personas:
 7. Procesamiento de frames y determinar si las personas mantienen una distancia social segura:
     - Iteración de frames.
     - detect_people
-8. Suponiendo que se hayan detectado al menos dos personas en el cuadro:
-    - Calcule la distancia euclidiana entre todos los pares de centroides.
-    - Iterar sobre la matriz de distancia triangular.
-    - Verificar si la distancia viola la distancia social mínima y se agrega  al conjunto de violate.
+    - Suponiendo que se hayan detectado al menos dos personas en el cuadro:
+       - Calcule la distancia euclidiana entre todos los pares de centroides.
+      - Iterar sobre la matriz de distancia triangular.
+      - Verificar si la distancia viola la distancia social mínima y se agrega  al conjunto de violate.
 
 
 ### Detección de cubrebocas
