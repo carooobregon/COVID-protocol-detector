@@ -55,7 +55,7 @@ Se utiliza un conjunto de datos llamado COCO que consta de 80 etiquetas, que inc
 ## Descripción y entrenamiento de los modelos
 ### Detección de distancia
 ### Detección de cubrebocas
-1. Construir Darknet: clonando darknet del repositorio de AlexeyAB’s, permitir OPENCV y GPU para el makefile, y proceder a construir el Darknet.
+Markup: 1. Construir Darknet: clonando darknet del repositorio de AlexeyAB’s, permitir OPENCV y GPU para el makefile, y proceder a construir el Darknet.
 2. Descargar los pesos pre entrenados de YOLOv4: YOLOv4 ha sido entrenado con el dataset de coco el cual tiene 80 clases.
 3. Etiquetado de dataset: Se utilizó el dataset de Face Mask Dataset (YOLO Format) de Kaggle, del cual solo se usaron las imágenes de train y de test con sus anotaciones en yolo, estas carpetas comprimidas se subieron a una carpeta en drive.
 4. Descomprimir carpetas de train y test en el folder de darknet: Se copiaron las carpetas de train y test en la raíz del directorio de Colab VM para después poder descomprimirlas en el folder de darknet.
