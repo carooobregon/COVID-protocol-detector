@@ -53,6 +53,8 @@ Se utiliza un conjunto de datos llamado COCO que consta de 80 etiquetas, que inc
 - Objetos de cocina y comedor, como copas de vino, tazas tenedores, cuchillos, etc.
 
 ## Descripción y entrenamiento de los modelos
+### Detección de distancia
+1. Hola
 ### Detección de cubrebocas
 
 
