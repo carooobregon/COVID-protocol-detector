@@ -16,8 +16,8 @@ La enfermedad por coronavirus ha causado millones de muertes alrededor del mundo
 Con la ayuda de YOLOv3 y OpenCV se puede construir un modelo de deteccion de distancia social y de idenficiacion de cubrebocas para poder alrmar cuando alguien esta en alto riesgo de contagio. YOLO es un sistema de detección de objetos en tiempo real que utiliza solo una red convolucional, la cual  puede dividir una imagen de entrada en regiones y  por cada región dibujar  en forma de rectángulos los objetos encontrados y obtener la probabilidad de las clases por cada rectángulo. Las capas iniciales extraen las características de la imagen mientras que las últimas predicen las probabilidades y coordenadas. OpenCV es una biblioteca de software de código abierto de visión computacional y aprendizaje automático. En conjunto creamos un modelo que debe identificar  a  todas  las  personas  en  un  video  e  identificar  la  distancia entre  ellos  y  si  están  usando  cubrebocas. Las  siguientes  alertas son desplegadas por el 
 sistema:  
 
-  “Alto riesgo” si hay  personas  que  no  respetan  una  sana  distancia  y  no  están  usando cubrebocas. 
-  “Riesgo” si hay  personas que están respetando la sana distancia, pero no estás usando cubrebocas. 
+  - “Alto riesgo” si hay  personas  que  no  respetan  una  sana  distancia  y  no  están  usando cubrebocas.
+  - “Riesgo” si hay  personas que están respetando la sana distancia, pero no estás usando cubrebocas. 
   
 ## Requerimientos
 **Se debe de ejectuar el código en Google Colab para asegurar su funcionamiento adecuado.**
