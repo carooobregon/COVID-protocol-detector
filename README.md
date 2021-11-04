@@ -54,8 +54,28 @@ Se utiliza un conjunto de datos llamado COCO que consta de 80 etiquetas, que inc
 
 ## Descripción y entrenamiento de los modelos
 ### Detección de distancia
-1. Hola
 ### Detección de cubrebocas
+1. Construir Darknet: clonando darknet del repositorio de AlexeyAB’s, permitir OPENCV y GPU para el makefile, y proceder a construir el Darknet.
+2. Descargar los pesos pre entrenados de YOLOv4: YOLOv4 ha sido entrenado con el dataset de coco el cual tiene 80 clases.
+3. Etiquetado de dataset: Se utilizó el dataset de Face Mask Dataset (YOLO Format) de Kaggle, del cual solo se usaron las imágenes de train y de test con sus anotaciones en yolo, estas carpetas comprimidas se subieron a una carpeta en drive.
+4. Descomprimir carpetas de train y test en el folder de darknet: Se copiaron las carpetas de train y test en la raíz del directorio de Colab VM para después poder descomprimirlas en el folder de darknet.
+5. Configurar los archivos para el entrenamiento: copiar yolov4.cfg al google drive para poder editarlo conforme al objeto que queremos detectar:
+  - max_batches = (número de clases) * 2000( mínimo 6000, maximo 10,000)
+  - steps = (80% de max_batches), (90% de max_batches)
+  - filters = (número de  classes + 5) * 3
+  - channels=3 for RGB images, 1 for grayscale images
+  - classes= número de clases
+  - width
+  - height
+  - volver a subirlo al cloud VM de google drive
+6. Se crea un nuevo archivo llamado obj.names: Este archivo contiene el nombre de cada clase línea por línea en el mismo orden que el archivo de classes.txt
+7. Se crea un nuevo archivo llamado obj.data: Este archivo contiene el número de clases, las ubicaciones de las carpetas de train, test, obj.names y la ubicación donde se almacenará el entrenamiento.
+8. Crear train.txt y test.txt: Estos contienen las ubicaciones de las imágenes de entrenamiento y de testing.
+9. Descargar los pesos pre entrenados para capas convolucionales.
+10. Entrenar el código: Cada 100 iteraciones darknet guarda el entrenamiento en un archivo en la carpeta que se destino como backup y cada 1000 iteraciones crea un nuevo archivo donde se encontrarán las siguientes 1000 iteraciones.
+11. Revisar el Mean Average Precision de cada archivo de pesos, y encontrar el que tenga un valor más alto.
+12. Correr el detector de objetos en una imagen o video.
+
 
 
 ## Resultados
