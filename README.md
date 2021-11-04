@@ -22,3 +22,23 @@ sistema:
 ## Requerimientos
 **Se debe de ejectuar el código en Google Colab para asegurar su funcionamiento adecuado.**
 
+
+
+
+
+## Uso del código
+El archivo final del modelo: **nose_como_se_llama**.ipynb
+
+Al realizar el clone al repositorio se obtienen todos los archivos, en caso de no hacerlo, verificar que se tengan todos los archivos de los datos para su correcto funcionamiento.
+
+## Clonado del repositorio
+```
+git clone https://github.com/carooobregon/proyecto-investigacion2.git
+```
+## Base de datos
+
+## Descripción y entrenamiento de los modelos
+
+## Resultados
+
+## Páginas consultadas
